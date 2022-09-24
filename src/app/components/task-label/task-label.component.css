@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--blue-2);
+    border-radius: 20px;
+    width: 50%;
+    padding: 1em;
+    align-items: center;
+}
+
+.container-title h1 {
+    font-size: 3em;
+}
+
+.task-label {
+    display:flex;
+    background-color: var(--white);
+    border-radius: 20px;
+    padding: 1rem;
+    color: black;
+    margin-bottom: 1em;
+}
+
+.check-task img {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.status-task {
+    min-width: 100%;
+}

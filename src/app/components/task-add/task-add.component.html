@@ -1,9 +1,7 @@
-<div class="container">
-  <form action="" class="flex">
+<section class="container">
+  <form action="">
     <div class="input-label">
-      <div class="title-label">
-        <label for="title-task">Título da tarefa</label>
-      </div>
+      <label for="title-task" class="title">Título da tarefa</label>
       <input
         type="text"
         id="title-task"
@@ -13,44 +11,38 @@
     </div>
 
     <div class="input-label">
-      <div class="title-label"><label for="desc-task">Descrição</label></div>
+      <label for="desc-task" class="title">Descrição</label>
       <textarea
         type="text"
-        id="desc-title"
-        name="desc-title"
+        id="desc-task"
+        name="desc-task"
         placeholder="Digite aqui..."
       ></textarea>
     </div>
+
     <div class="input-label">
-      <div class="title-label">
-        <legend>Qual a importância da sua tarefa?</legend>
+      <legend class="title">Qual a importância da sua tarefa?</legend>
+      <div class="input-option">
+        <input type="radio" name="importancy" value="1" id="imp" checked />
+        <label for="imp">Importante</label>
       </div>
-      <div>
-        <input type="radio" name="importancy" value="1" id="imp" /><label
-          for="imp"
-          >Importante</label
-        >
-      </div>
-      <div>
-        <input type="radio" name="importancy" value="2" id="n-imp" /><label
-          for="n-imp"
-          >Não importante</label
-        >
+      <div class="input-option">
+        <input type="radio" name="importancy" value="2" id="n-imp" />
+        <label for="n-imp">Não importante</label>
       </div>
     </div>
 
     <div class="input-label">
-      <div><legend>Qual a urgência da sua tarefa?</legend></div>
-      <div>
-        <input type="radio" name="urgency" value="1" id="imp" /><label for="imp"
-          >Urgente</label
-        >
+      <legend class="title">Qual a urgência da sua tarefa?</legend>
+      <div class="input-option">
+        <input type="radio" name="urgency" value="1" id="urg" checked />
+        <label for="urg">Urgente</label>
       </div>
-      <input type="radio" name="urgency" value="2" id="n-imp" /><label
-        for="n-imp"
-        >Não urgente</label
-      >
+      <div class="input-option">
+        <input type="radio" name="urgency" value="2" id="n-urg" />
+        <label for="n-urg">Não urgente</label>
+      </div>
     </div>
-    <div><button type="submit" value="Submit">Enviar</button></div>
+    <div><button type="submit" value="Submit">Salvar tarefa</button></div>
   </form>
-</div>
+</section>

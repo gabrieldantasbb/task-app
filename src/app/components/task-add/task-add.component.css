@@ -1,0 +1,45 @@
+.container {
+    padding: 2rem;
+    background-color: var(--blue-2) ;
+    border-radius: 20px;
+}
+.input-label {
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: large;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+    border-style: none;
+  outline: none;
+  padding: 1em;
+  resize: none;
+}
+
+input ::placeholder,
+textarea ::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-option input {
+    margin-right: 0.5rem;
+}
+
+button {
+        padding: 0.5em;
+        width: 100%;
+        border: none;
+        font: inherit;
+        font-weight: 600;
+        color: var(--white);
+        cursor: pointer;  
+        background-color: var(--orange);
+        border-radius: 5px;
+}
