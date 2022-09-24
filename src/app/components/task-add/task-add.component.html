@@ -1,0 +1,56 @@
+<div class="container">
+  <form action="" class="flex">
+    <div class="input-label">
+      <div class="title-label">
+        <label for="title-task">Título da tarefa</label>
+      </div>
+      <input
+        type="text"
+        id="title-task"
+        name="title-task"
+        placeholder="Digite aqui..."
+      />
+    </div>
+
+    <div class="input-label">
+      <div class="title-label"><label for="desc-task">Descrição</label></div>
+      <textarea
+        type="text"
+        id="desc-title"
+        name="desc-title"
+        placeholder="Digite aqui..."
+      ></textarea>
+    </div>
+    <div class="input-label">
+      <div class="title-label">
+        <legend>Qual a importância da sua tarefa?</legend>
+      </div>
+      <div>
+        <input type="radio" name="importancy" value="1" id="imp" /><label
+          for="imp"
+          >Importante</label
+        >
+      </div>
+      <div>
+        <input type="radio" name="importancy" value="2" id="n-imp" /><label
+          for="n-imp"
+          >Não importante</label
+        >
+      </div>
+    </div>
+
+    <div class="input-label">
+      <div><legend>Qual a urgência da sua tarefa?</legend></div>
+      <div>
+        <input type="radio" name="urgency" value="1" id="imp" /><label for="imp"
+          >Urgente</label
+        >
+      </div>
+      <input type="radio" name="urgency" value="2" id="n-imp" /><label
+        for="n-imp"
+        >Não urgente</label
+      >
+    </div>
+    <div><button type="submit" value="Submit">Enviar</button></div>
+  </form>
+</div>
